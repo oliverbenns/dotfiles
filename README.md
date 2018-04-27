@@ -1,2 +1,2 @@
-# home
-Unix home directory files, bash profile, git config etc
+# Home
+My Unix home directory files.
