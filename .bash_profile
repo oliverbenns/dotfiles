@@ -20,3 +20,9 @@ export GOPATH="$HOME/Sites/go"
 
 # Docker
 alias dc="docker-compose"
+
+# Tokens
+if [ -f ~/.tokens ]
+then
+  source ~/.tokens
+fi
