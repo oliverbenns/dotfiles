@@ -30,3 +30,12 @@ fi
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Git
+git-reset-local() {
+  git checkout master;
+  git pull;
+  # @TODO: Maybe change to -D (force regardless of merge status)
+  git branch | grep -v "master" | xargs git branch -d;
+  git stash clear;
+  git fetch --prune;
+}
