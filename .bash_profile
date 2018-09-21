@@ -26,3 +26,7 @@ if [ -f ~/.tokens ]
 then
   source ~/.tokens
 fi
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
