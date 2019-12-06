@@ -39,3 +39,6 @@ git-reset-local() {
   git stash clear;
   git fetch --prune;
 }
+
+# Remove Catalina Zshell message
+export BASH_SILENCE_DEPRECATION_WARNING=1
