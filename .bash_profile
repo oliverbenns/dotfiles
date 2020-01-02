@@ -17,6 +17,7 @@ eval "$(rbenv init -)"
 
 # Go
 export GOPATH="$HOME/Sites/go"
+export PATH="$GOPATH/bin:$PATH"
 
 # Docker
 alias dc="docker-compose"
@@ -28,7 +29,7 @@ then
 fi
 
 # Rust
-export PATH="$GOPATH/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Git
 git-reset-local() {
