@@ -28,7 +28,7 @@ then
 fi
 
 # Rust
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$GOPATH/bin:$HOME/.cargo/bin:$PATH"
 
 # Git
 git-reset-local() {
