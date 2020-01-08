@@ -10,9 +10,6 @@ PS1="${PS1_COLOR}\w\n${PS1_COLOR_CLEAR}λ "
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-# Ruby
-eval "$(rbenv init -)"
-
 # Go
 export GOPATH="$HOME/Sites/go"
 export PATH="$GOPATH/bin:$PATH"
