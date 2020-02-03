@@ -2,8 +2,8 @@
 export EDITOR='subl -w'
 alias e="subl"
 
-PS1_COLOR="\e[92m"
-PS1_COLOR_CLEAR="\e[0m"
+PS1_COLOR="\[\e[92m\]"
+PS1_COLOR_CLEAR="\[\e[0m\]"
 PS1="${PS1_COLOR}\w\n${PS1_COLOR_CLEAR}λ "
 
 # Node
