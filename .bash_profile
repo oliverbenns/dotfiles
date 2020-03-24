@@ -22,9 +22,6 @@ then
   source ~/.tokens
 fi
 
-# Rust
-export PATH="$HOME/.cargo/bin:$PATH"
-
 # Git
 git-reset-local() {
   git checkout master;
