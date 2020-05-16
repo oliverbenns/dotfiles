@@ -1,7 +1,9 @@
+" Display
 syntax on
 set number
 colorscheme slate
 
+" Disable backups
 set nobackup
 set nowritebackup
 set noswapfile
