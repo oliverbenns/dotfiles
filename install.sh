@@ -49,4 +49,5 @@ else
   installFile ".bash_profile"
   installFile ".gitignore_global"
   installFile ".vimrc"
+  installFile ".editorconfig"
 fi
