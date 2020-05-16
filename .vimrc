@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " Display
 syntax on
 set number
