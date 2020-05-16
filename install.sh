@@ -28,5 +28,25 @@ function installFile {
   cp $BASE_DIR/$FILE_NAME ~/$FILE_NAME
 }
 
-installFile ".bash_profile"
-installFile ".gitignore_global"
+if [ $1 ] 
+then
+  if [ ! -f "$1" ]
+  then
+    echo "File \"${1}\" does not exist."
+    exit 1
+  else 
+    installFile "${1}"
+  fi
+else 
+  while true; do
+    read -p "You are about to install all files, do you wish to proceed?" yn
+    case $yn in
+      [Yy]* ) break;;
+      [Nn]* ) exit;;
+      * ) echo "Please answer yes or no.";;
+    esac
+  done
+  installFile ".bash_profile"
+  installFile ".gitignore_global"
+  installFile ".vimrc"
+fi
