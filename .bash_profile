@@ -23,6 +23,9 @@ then
   source ~/.tokens
 fi
 
+# Lists are easier to grok
+alias ll='ls -l'
+
 # Git
 git-reset-local() {
   git checkout master;
