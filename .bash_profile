@@ -17,7 +17,7 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 # Docker
 alias dc="docker-compose"
 
-# Tokens
+# Tokens + hidden config specific to the current machine
 if [ -f ~/.tokens ]
 then
   source ~/.tokens
