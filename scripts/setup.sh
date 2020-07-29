@@ -47,7 +47,6 @@ brew cask install sublime-text
 brew cask install slack
 brew cask install spotify
 brew cask install the-unarchiver
-brew cask install whatsapp
 brew cask install zoomus
 
 # Vim plugins
