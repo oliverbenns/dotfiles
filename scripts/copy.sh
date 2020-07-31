@@ -9,10 +9,11 @@ function copy {
 }
 
 copy .bash_profile
+copy .bashrc
 copy .config
 copy .editorconfig
 copy .gitignore_global
 copy .vimrc
 
 # See the bash changes
-source ~/.bash_profile
+source ~/.bashrc
