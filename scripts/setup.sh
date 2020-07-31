@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chsh -s /bin/bash
+
 BASE_DIR=$(dirname "$0")
 
 ${BASE_DIR}/copy.sh
