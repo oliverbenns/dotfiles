@@ -61,4 +61,4 @@ cp -r $BASE_DIR/../.config/sublime/Preferences.sublime-settings $HOME/Library/Ap
 cp -r $BASE_DIR/../.config/iterm2/com.googlecode.iterm2.plist $HOME/Library/Preferences
 
 # See the bash changes
-source ~/.bash_profile
+source ~/.bashrc
