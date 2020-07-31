@@ -4,7 +4,7 @@ chsh -s /bin/bash
 
 BASE_DIR=$(dirname "$0")
 
-${BASE_DIR}/copy.sh
+$BASE_DIR/copy.sh
 
 # https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 git config --global alias.co checkout
