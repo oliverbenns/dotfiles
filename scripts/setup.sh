@@ -55,12 +55,10 @@ brew cask install zoomus
 # Vim plugins
 git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
 
-# Some apps have specific config directories, so symlink these.
-rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-ln -s ${BASE_DIR}../.config/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-
-rm ~/Library/Preferences/com.googlecode.iterm2.plist
-ln -s ${BASE_DIR}../.config/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+# Some apps have specific config directories, so cp these. Symlinks don't work.
+# Not ideal but this will likely be removed if I transition to vim and standard terminal.
+cp -r $BASE_DIR/../.config/sublime/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+cp -r $BASE_DIR/../.config/iterm2/com.googlecode.iterm2.plist $HOME/Library/Preferences
 
 # See the bash changes
 source ~/.bash_profile
