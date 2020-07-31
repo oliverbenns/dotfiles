@@ -6,6 +6,8 @@ BASE_DIR=$(dirname "$0")
 
 $BASE_DIR/copy.sh
 
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 git config --global alias.co checkout
 git config --global alias.br branch
