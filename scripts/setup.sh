@@ -60,4 +60,4 @@ rm ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ${BASE_DIR}../.config/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 
 # See the bash changes
-source ~/.bashrc
+source ~/.bash_profile

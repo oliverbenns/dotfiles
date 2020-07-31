@@ -15,4 +15,4 @@ copy .gitignore_global
 copy .vimrc
 
 # See the bash changes
-source ~/.bashrc
+source ~/.bash_profile
