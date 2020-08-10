@@ -14,7 +14,7 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 # Always set same upstream name
-git config push.default current
+git config --global push.default current
 
 # Install nvm, node and global deps
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
