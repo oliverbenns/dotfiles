@@ -33,7 +33,7 @@ npm install -g typescript
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew install fzf
-brew install go@1.13
+brew install go
 
 brew cask install alfred
 brew cask install blender

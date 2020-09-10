@@ -12,7 +12,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Go
 export GOPATH=$HOME/go
-export PATH="$PATH:/usr/local/opt/go@1.13/bin"
+export PATH="$PATH:/usr/local/opt/go/bin"
 
 # Docker
 alias dc="docker-compose"
