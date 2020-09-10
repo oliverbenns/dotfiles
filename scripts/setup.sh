@@ -34,7 +34,6 @@ npm install -g typescript
 
 brew install fzf
 brew install go@1.13
-brew install yarn
 
 brew cask install alfred
 brew cask install blender
