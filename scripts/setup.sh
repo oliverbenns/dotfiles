@@ -37,21 +37,30 @@ brew install go@1.13
 brew install yarn
 
 brew cask install alfred
+brew cask install blender
+brew cask install brave-browser
 brew cask install discord
 brew cask install docker
-brew cask install firefox
+brew cask install epic-games
+brew cask install evernote
 brew cask install gimp
-brew cask install google-chrome
+brew cask install google-backup-and-sync
 brew cask install iterm2
 brew cask install karabiner-elements
+brew cask install obs
+brew cask install openemu
+brew cask install postico
 brew cask install postman
+brew cask install qbittorrent
 brew cask install rectangle
 brew cask install sequel-pro
 brew cask install sourcetree
-brew cask install sublime-text
-brew cask install slack
 brew cask install spotify
+brew cask install steam
+brew cask install sublime-text
 brew cask install the-unarchiver
+brew cask install virtualbox
+brew cask install vlc
 brew cask install zoomus
 
 # Vim plugins
