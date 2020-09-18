@@ -62,9 +62,6 @@ brew cask install virtualbox
 brew cask install vlc
 brew cask install zoomus
 
-# Vim plugins
-git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
-
 # Some apps have specific config directories, so cp these. Symlinks don't work.
 # Not ideal but this will likely be removed if I transition to vim and standard terminal.
 cp -r $BASE_DIR/../.config/sublime/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
