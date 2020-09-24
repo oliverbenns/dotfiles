@@ -5,6 +5,12 @@ syntax on
 set number
 colorscheme slate
 
+" Search
+" case-insensitive searching
+set ignorecase
+" If capital letter is used, switch to case-sensitive search
+set smartcase
+
 " Disable backups
 set nobackup
 set nowritebackup
