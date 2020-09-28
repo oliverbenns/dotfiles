@@ -36,6 +36,10 @@ git-reset-local() {
   git fetch --prune;
 }
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # Remove Catalina Zshell message
 export BASH_SILENCE_DEPRECATION_WARNING=1
 

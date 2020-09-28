@@ -16,6 +16,9 @@ git config --global alias.st status
 # Always set same upstream name
 git config --global push.default current
 
+# Auto-complete git cmds/branch names etc
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
 # Install nvm, node and global deps
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
