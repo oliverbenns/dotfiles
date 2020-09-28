@@ -34,6 +34,7 @@ npm install -g typescript
 
 brew install fzf
 brew install go
+brew install the_silver_searcher
 
 brew cask install alfred
 brew cask install blender
