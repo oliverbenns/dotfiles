@@ -43,6 +43,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
 " Initialize plugin system
 call plug#end()
