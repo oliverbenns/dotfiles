@@ -44,6 +44,7 @@ Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'tpope/vim-sleuth'
 
 " Initialize plugin system
 call plug#end()
