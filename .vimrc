@@ -44,8 +44,16 @@ Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+" Auto detect indentation. Useful if opening projects from various sources
+" it might be better to just stick to editorconfig 
 Plug 'tpope/vim-sleuth'
 
+" Git(hub) features. Really useful for :Gbrowse and :Gblame
+" Otherwise I stick with Git cli
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+ 
 " Initialize plugin system
 call plug#end()
 
