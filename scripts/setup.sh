@@ -49,6 +49,7 @@ brew cask install evernote
 brew cask install gimp
 brew cask install google-backup-and-sync
 brew cask install iterm2
+brew cask install kap
 brew cask install karabiner-elements
 brew cask install obs
 brew cask install openemu
