@@ -36,16 +36,29 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+" Go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+" Javascript/Typescript/Jsx/Tsx ...yeah :/
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+" Fuzzy file search. Enables file search and contents search (with silver
+" surfer)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+" Auto detect indentation. Useful if opening projects from various sources
+" it might be better to just stick to editorconfig 
 Plug 'tpope/vim-sleuth'
 
+" Git(hub) features. Really useful for :Gbrowse and :Gblame
+" Otherwise I stick with Git cli
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+ 
 " Initialize plugin system
 call plug#end()
 
