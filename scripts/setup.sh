@@ -58,6 +58,7 @@ brew cask install postman
 brew cask install qbittorrent
 brew cask install rectangle
 brew cask install sequel-pro
+brew cask install slack
 brew cask install sourcetree
 brew cask install spotify
 brew cask install steam
