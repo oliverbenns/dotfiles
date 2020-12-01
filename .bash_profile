@@ -54,3 +54,7 @@ zoom() {
   echo -e $invite | pbcopy
   open -a "/Applications/zoom.us.app" $ZOOM_URL
 }
+
+
+# FZF - Always show hidden files, ignore .git and respect .gitignore
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
