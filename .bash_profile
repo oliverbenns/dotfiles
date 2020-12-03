@@ -1,6 +1,6 @@
 # Editor Config
-export EDITOR='subl -w'
-alias e="subl"
+export EDITOR='vim'
+alias e="vim"
 
 PS1_COLOR="\[\e[92m\]"
 PS1_COLOR_CLEAR="\[\e[0m\]"
