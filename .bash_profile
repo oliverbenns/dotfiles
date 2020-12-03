@@ -24,7 +24,7 @@ then
 fi
 
 # Lists are easier to grok
-alias ll='ls -l'
+alias ls='ls -l'
 
 # Git
 git-reset-local() {
