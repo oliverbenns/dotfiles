@@ -3,7 +3,6 @@ set encoding=utf-8
 " Display
 syntax on
 set number
-colorscheme slate
 
 " Search
 " case-insensitive searching
@@ -35,6 +34,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'tomasr/molokai'
 
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -61,6 +61,8 @@ Plug 'tpope/vim-rhubarb'
  
 " Initialize plugin system
 call plug#end()
+
+colorscheme molokai
 
 let g:coc_global_extensions = [ 'coc-tsserver' ]
 
