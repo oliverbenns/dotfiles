@@ -66,6 +66,10 @@ colorscheme molokai
 
 let g:coc_global_extensions = [ 'coc-tsserver' ]
 
+" Prettier
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+
 " https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim#highlighting-for-large-files
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
