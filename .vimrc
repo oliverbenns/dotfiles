@@ -70,3 +70,5 @@ let g:coc_global_extensions = [ 'coc-tsserver' ]
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 
+" Always show hidden files, ignore .git and respect .gitignore
+let $FZF_DEFAULT_COMMAND="ag --hidden --ignore .git -g \"\""
