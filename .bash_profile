@@ -2,7 +2,14 @@
 export EDITOR='vim'
 alias e="vim"
 
-PS1_COLOR="\[\e[92m\]"
+if [[ "$TERM" =~ 256color ]]; then
+  # https://github.com/tomasr/molokai/blob/master/colors/molokai.vim#L163
+  # https://robotmoon.com/256-colors/
+  PS1_COLOR="\[\e[38;5;118m\]"
+else
+  PS1_COLOR="\[\e[32m\]"
+fi
+
 PS1_COLOR_CLEAR="\[\e[0m\]"
 PS1="${PS1_COLOR}\w\n${PS1_COLOR_CLEAR}λ "
 
