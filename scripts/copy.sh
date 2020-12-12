@@ -14,6 +14,7 @@ copy .config
 copy .editorconfig
 copy .gitignore_global
 copy .vimrc
+copy .hushlogin
 
 # See the bash changes
 source ~/.bashrc
