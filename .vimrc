@@ -4,6 +4,9 @@ set encoding=utf-8
 syntax on
 set number
 
+" Highlight search items
+set hlsearch
+map <esc> :noh<cr>
 " Search
 " case-insensitive searching
 set ignorecase
