@@ -39,34 +39,34 @@ brew install fzf
 brew install go
 brew install the_silver_searcher
 
-brew cask install alfred
-brew cask install blender
-brew cask install brave-browser
-brew cask install discord
-brew cask install docker
-brew cask install epic-games
-brew cask install evernote
-brew cask install gimp
-brew cask install google-backup-and-sync
-brew cask install iterm2
-brew cask install kap
-brew cask install karabiner-elements
-brew cask install obs
-brew cask install openemu
-brew cask install postico
-brew cask install postman
-brew cask install qbittorrent
-brew cask install rectangle
-brew cask install sequel-pro
-brew cask install slack
-brew cask install sourcetree
-brew cask install spotify
-brew cask install steam
-brew cask install sublime-text
-brew cask install the-unarchiver
-brew cask install virtualbox
-brew cask install vlc
-brew cask install zoomus
+brew install --cask alfred
+brew install --cask blender
+brew install --cask brave-browser
+brew install --cask discord
+brew install --cask docker
+brew install --cask epic-games
+brew install --cask evernote
+brew install --cask gimp
+brew install --cask google-backup-and-sync
+brew install --cask iterm2
+brew install --cask kap
+brew install --cask karabiner-elements
+brew install --cask obs
+brew install --cask openemu
+brew install --cask postico
+brew install --cask postman
+brew install --cask qbittorrent
+brew install --cask rectangle
+brew install --cask sequel-pro
+brew install --cask slack
+brew install --cask sourcetree
+brew install --cask spotify
+brew install --cask steam
+brew install --cask sublime-text
+brew install --cask the-unarchiver
+brew install --cask virtualbox
+brew install --cask vlc
+brew install --cask zoomus
 
 # Some apps have specific config directories, so cp these. Symlinks don't work.
 # Not ideal but this will likely be removed if I transition to vim and standard terminal.

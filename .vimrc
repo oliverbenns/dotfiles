@@ -90,3 +90,7 @@ autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 let $FZF_DEFAULT_OPTS="--color fg:252,bg:233,hl:67,fg+:252,bg+:235,hl+:81 --color info:144,prompt:161,spinner:135,pointer:135,marker:118"
 " Always show hidden files, ignore .git and respect .gitignore
 let $FZF_DEFAULT_COMMAND="ag --hidden --ignore .git -g \"\""
+
+" File/contents search mappings
+nnoremap <silent> <C-p> :FZF<CR>
+nnoremap <silent> <S-f> :Ag<CR>
