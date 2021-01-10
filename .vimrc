@@ -8,6 +8,10 @@ set number
 set hlsearch
 map <esc> :noh<cr>
 
+" More natural window splitting
+set splitright
+set splitbelow
+
 " Allow copy + paste across vim + sys clipboard
 " https://stackoverflow.com/questions/30691466/what-is-difference-between-vims-clipboard-unnamed-and-unnamedplus-settings
 set clipboard^=unnamed,unnamedplus
