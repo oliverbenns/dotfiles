@@ -6,7 +6,8 @@ set number
 
 " Highlight search items
 set hlsearch
-map <esc> :noh<cr>
+" https://vi.stackexchange.com/questions/8741/how-to-automatically-turn-off-hlsearch-after-im-done-searching
+nnoremap <esc><esc> :silent! nohls<cr>
 
 " More natural window splitting
 set splitright
