@@ -8,6 +8,10 @@ $BASE_DIR/copy.sh
 
 defaults write com.apple.finder AppleShowAllFiles YES
 
+# Move cursor faster when editing
+defaults write -g InitialKeyRepeat -int 25
+defaults write -g KeyRepeat -int 2
+
 # https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 git config --global alias.co checkout
 git config --global alias.br branch
