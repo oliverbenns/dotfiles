@@ -28,6 +28,9 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Let me backspace
+set backspace=indent,eol,start
+
 " https://github.com/junegunn/fzf/blob/master/README-VIM.md
 set rtp+=/usr/local/opt/fzf
 
