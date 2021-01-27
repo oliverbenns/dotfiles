@@ -98,3 +98,6 @@ let $FZF_DEFAULT_COMMAND="ag --hidden --ignore .git -g \"\""
 " File/contents search mappings
 nnoremap <silent> <C-p> :FZF<CR>
 nnoremap <silent> <S-f> :Ag<CR>
+
+" Auto reload any changes to file outside of vim
+set autoread
