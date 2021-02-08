@@ -39,6 +39,7 @@ npm install -g typescript
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+brew install vim
 brew install fzf
 brew install go
 brew install the_silver_searcher
@@ -70,7 +71,7 @@ brew install --cask sublime-text
 brew install --cask the-unarchiver
 brew install --cask virtualbox
 brew install --cask vlc
-brew install --cask zoomus
+brew install --cask zoom
 
 # Some apps have specific config directories, so cp these. Symlinks don't work.
 # Not ideal but this will likely be removed if I transition to vim and standard terminal.

@@ -28,6 +28,9 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Let me backspace
+set backspace=indent,eol,start
+
 " https://github.com/junegunn/fzf/blob/master/README-VIM.md
 set rtp+=/usr/local/opt/fzf
 
@@ -98,3 +101,6 @@ nnoremap <silent> <S-f> :Ag<CR>
 
 " Go
 let g:go_fmt_command = "goimports"
+
+" Auto reload any changes to file outside of vim
+set autoread
