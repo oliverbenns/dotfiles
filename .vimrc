@@ -104,3 +104,9 @@ let g:go_fmt_command = "goimports"
 
 " Auto reload any changes to file outside of vim
 set autoread
+
+" Override config specific to machine
+if filereadable(expand("~/.vimrc_custom"))
+  source ~/.vimrc_custom
+endif
+
