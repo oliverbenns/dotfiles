@@ -95,3 +95,6 @@ let $FZF_DEFAULT_COMMAND="ag --hidden --ignore .git -g \"\""
 " File/contents search mappings
 nnoremap <silent> <C-p> :FZF<CR>
 nnoremap <silent> <S-f> :Ag<CR>
+
+" Go
+let g:go_fmt_command = "goimports"
