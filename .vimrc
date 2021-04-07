@@ -97,6 +97,7 @@ let $FZF_DEFAULT_COMMAND="ag --hidden --ignore .git -g \"\""
 
 " File/contents search mappings
 nnoremap <silent> <C-p> :FZF<CR>
+nnoremap <silent> <C-h> :History<CR>
 nnoremap <silent> <S-f> :Ag<CR>
 
 " Go
