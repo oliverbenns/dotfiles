@@ -111,3 +111,6 @@ if filereadable(expand("~/.vimrc_custom"))
   source ~/.vimrc_custom
 endif
 
+
+command PrettyJson %!python -m json.tool
+
