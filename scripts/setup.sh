@@ -35,6 +35,7 @@ npm install -g http-server
 npm install -g prettier
 npm install -g svgo
 npm install -g typescript
+npm install -g tldr
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
