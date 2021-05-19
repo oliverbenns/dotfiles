@@ -1,6 +1,8 @@
 # Editor Config
 export EDITOR='vim'
 alias e="vim"
+# Vim keys in Bash
+set -o vi
 
 if [[ "$TERM" =~ 256color ]]; then
   # https://github.com/tomasr/molokai/blob/master/colors/molokai.vim#L163
