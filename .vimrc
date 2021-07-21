@@ -114,3 +114,13 @@ endif
 
 command PrettyJson %!python -m json.tool
 
+" https://github.com/neoclide/coc-tsserver/issues/14#issuecomment-548045568
+" https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+" @TODO: Get these working - leader does not seem to be working correctly (r
+" goes to replace char mode)
+nmap <leader> do <Plug>(coc-codeaction)
+nmap <leader> rn <Plug>(coc-rename)
