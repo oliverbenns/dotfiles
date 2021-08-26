@@ -102,6 +102,7 @@ nnoremap <silent> <S-f> :Ag<CR>
 
 " Go
 let g:go_fmt_command = "goimports"
+let g:go_doc_popup_window = 1
 
 " Auto reload any changes to file outside of vim
 set autoread
