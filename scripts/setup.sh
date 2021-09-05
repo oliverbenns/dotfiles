@@ -55,7 +55,7 @@ brew install --cask docker
 brew install --cask epic-games
 brew install --cask evernote
 brew install --cask gimp
-brew install --cask google-backup-and-sync
+brew install --cask google-drive
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask kap
