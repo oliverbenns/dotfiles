@@ -125,3 +125,6 @@ nmap <silent> gr <Plug>(coc-references)
 " goes to replace char mode)
 nmap <leader> do <Plug>(coc-codeaction)
 nmap <leader> rn <Plug>(coc-rename)
+
+" https://til.hashrocket.com/posts/19f784a79d-deleting-directories-of-files-from-netrw
+let g:netrw_localrmdir = "rm -r"
