@@ -64,4 +64,9 @@ zoom() {
   open -a "/Applications/zoom.us.app" $ZOOM_URL
 }
 
+# Direnv
 eval "$(direnv hook bash)"
+
+# Postgres
+alias pg-start="pg_ctl -D /usr/local/var/postgres start"
+alias pg-stop="pg_ctl -D /usr/local/var/postgres stop"
