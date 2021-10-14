@@ -40,6 +40,7 @@ npm install -g tldr
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+brew install direnv
 brew install fzf
 brew install gh
 brew install git
@@ -83,3 +84,4 @@ cp -r $BASE_DIR/../.config/iterm2/com.googlecode.iterm2.plist $HOME/Library/Pref
 
 # See the bash changes
 source ~/.bashrc
+

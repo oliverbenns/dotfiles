@@ -64,3 +64,4 @@ zoom() {
   open -a "/Applications/zoom.us.app" $ZOOM_URL
 }
 
+eval "$(direnv hook bash)"

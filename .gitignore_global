@@ -3,3 +3,4 @@
 _notes.txt
 *.sublime-project
 *.sublime-workspace
+.envrc
