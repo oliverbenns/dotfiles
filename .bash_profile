@@ -32,8 +32,8 @@ then
   source ~/.tokens
 fi
 
-# Lists are easier to grok
-alias ls='ls -l'
+# Lists are easier to grok, and show hidden files
+alias ls='ls -la'
 
 # Git
 git-reset-local() {
