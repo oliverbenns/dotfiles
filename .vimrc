@@ -61,6 +61,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'hashivim/vim-terraform'
 
 " Fuzzy file search. Enables file search and contents search (with silver
 " surfer)
