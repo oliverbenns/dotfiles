@@ -48,7 +48,9 @@ alias pg-start="pg_ctl -D /usr/local/var/postgres start"
 alias pg-stop="pg_ctl -D /usr/local/var/postgres stop"
 
 # Brew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if [[ `uname -m` == 'arm64' ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
 # Direnv
 eval "$(direnv hook bash)"
