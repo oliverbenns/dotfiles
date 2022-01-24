@@ -47,8 +47,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 alias pg-start="pg_ctl -D /usr/local/var/postgres start"
 alias pg-stop="pg_ctl -D /usr/local/var/postgres stop"
 
-# Brew 
-export PATH="$PATH:/bin/opt/homebrew/bin/brew"
+# Brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Direnv
 eval "$(direnv hook bash)"
