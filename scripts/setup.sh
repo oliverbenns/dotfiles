@@ -38,7 +38,11 @@ npm install -g typescript
 npm install -g tldr
 
 # Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# m1 needs this to source
+if [[ `uname -m` == 'arm64' ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
 brew install direnv
 brew install fzf
