@@ -43,19 +43,6 @@ fi
 # Remove Catalina Zshell message
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-zoom() {
-  invite="Join my Zoom meeting!\n\nUrl: $ZOOM_URL"
-
-  if [ -n "$ZOOM_PASS" ]
-  then
-    invite+="\nPass: $ZOOM_PASS"
-  fi
-
-  echo -e $invite | pbcopy
-  open -a "/Applications/zoom.us.app" $ZOOM_URL
-}
-
-
 # Postgres
 alias pg-start="pg_ctl -D /usr/local/var/postgres start"
 alias pg-stop="pg_ctl -D /usr/local/var/postgres stop"
