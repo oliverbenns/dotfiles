@@ -36,15 +36,6 @@ fi
 alias ls='ls -la'
 
 # Git
-git-reset-local() {
-  git checkout master;
-  git pull;
-  # @TODO: Maybe change to -D (force regardless of merge status)
-  git branch | grep -v "master" | xargs git branch -d;
-  git stash clear;
-  git fetch --prune;
-}
-
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
