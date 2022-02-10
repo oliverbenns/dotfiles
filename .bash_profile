@@ -43,10 +43,6 @@ fi
 # Remove Catalina Zshell message
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-# Postgres
-alias pg-start="pg_ctl -D /usr/local/var/postgres start"
-alias pg-stop="pg_ctl -D /usr/local/var/postgres stop"
-
 # Brew
 if [[ `uname -m` == 'arm64' ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
