@@ -44,9 +44,7 @@ fi
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Brew
-if [[ `uname -m` == 'arm64' ]]; then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
+export PATH=$PATH:/opt/homebrew/bin
 
 # Direnv
 eval "$(direnv hook bash)"

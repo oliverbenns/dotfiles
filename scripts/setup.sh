@@ -39,10 +39,6 @@ npm install -g tldr
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# m1 needs this to source
-if [[ `uname -m` == 'arm64' ]]; then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
 
 brew install direnv
 brew install fzf
@@ -53,33 +49,21 @@ brew install the_silver_searcher
 brew install vim
 
 brew install --cask alfred
-brew install --cask blender
 brew install --cask brave-browser
 brew install --cask discord
 brew install --cask docker
-brew install --cask epic-games
-brew install --cask evernote
-brew install --cask gimp
 brew install --cask google-cloud-sdk
 brew install --cask google-drive
-brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask kap
 brew install --cask karabiner-elements
-brew install --cask obs
-brew install --cask openemu
 brew install --cask postico
 brew install --cask postman
 brew install --cask qbittorrent
 brew install --cask rectangle
-brew install --cask sequel-pro
-brew install --cask slack
 brew install --cask sourcetree
 brew install --cask spotify
-brew install --cask steam
-brew install --cask sublime-text
 brew install --cask the-unarchiver
-brew install --cask virtualbox
 brew install --cask vlc
 brew install --cask zoom
 
