@@ -20,6 +20,9 @@ git config --global alias.st status
 # Always set same upstream name
 git config --global push.default current
 
+# Gitignore global
+git config --global core.excludesfile '~/.gitignore_global'
+
 # Auto-complete git cmds/branch names etc
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
