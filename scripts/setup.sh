@@ -47,7 +47,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install direnv
 brew install fzf
 brew install gh
-brew install git
 brew install go
 brew install the_silver_searcher
 brew install vim
