@@ -131,3 +131,8 @@ nmap <leader> rn <Plug>(coc-rename)
 " https://til.hashrocket.com/posts/19f784a79d-deleting-directories-of-files-from-netrw
 let g:netrw_localrmdir = "rm -r"
 let g:netrw_localcopydircmd = 'cp -r'
+
+" https://www.arthurkoziel.com/setting-up-vim-for-yaml/
+" YAML documents are required to have a 2 space indentation.
+" However, Vim does not set this by default
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
