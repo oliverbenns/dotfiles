@@ -39,17 +39,24 @@ npm install -g prettier
 npm install -g svgo
 npm install -g typescript
 npm install -g tldr
+npm install -g typescript-language-server
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew install direnv
-brew install fzf
 brew install gh
 brew install go
+
+brew install fzf
 brew install the_silver_searcher
 brew install vim
+
+brew install fd
+brew install ripgrep
+brew install hashicorp/tap/terraform-ls
+brew install neovim
 
 brew install --cask alfred
 brew install --cask brave-browser
