@@ -1,6 +1,6 @@
 # Editor Config
-export EDITOR='vim'
-alias e="vim"
+export EDITOR='nvim'
+alias e="nvim"
 # Vim keys in Bash
 set -o vi
 
