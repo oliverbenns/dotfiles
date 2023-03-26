@@ -24,6 +24,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'hashivim/vim-terraform'
+Plug 'prisma/vim-prisma'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lua/plenary.nvim'
