@@ -48,3 +48,7 @@ export PATH=$PATH:/opt/homebrew/bin
 
 # Direnv
 eval "$(direnv hook bash)"
+
+function x () {
+	git commit -m 'x'
+}
