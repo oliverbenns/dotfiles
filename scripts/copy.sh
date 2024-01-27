@@ -15,6 +15,7 @@ copy .editorconfig
 copy .gitignore_global
 copy .vimrc
 copy .hushlogin
+copy .prettierrc.json
 
 # See the bash changes
 source ~/.bashrc
