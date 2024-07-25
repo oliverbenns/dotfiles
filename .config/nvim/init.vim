@@ -143,6 +143,11 @@ require'lspconfig'.terraformls.setup {
   on_attach = on_attach
 }
 
+require'lspconfig'.eslint.setup {
+  capabilities = capabilities,
+  on_attach = on_attach
+}
+
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
 vim.keymap.set('n', '<S-f>', builtin.live_grep, {})

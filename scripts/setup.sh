@@ -40,6 +40,7 @@ npm install -g svgo
 npm install -g typescript
 npm install -g tldr
 npm install -g typescript-language-server
+npm install -g vscode-langservers-extracted
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

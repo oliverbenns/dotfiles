@@ -1,6 +1,8 @@
 *~
 .DS_Store
 _notes.txt
-*.sublime-project
-*.sublime-workspace
-.envrc
+.env
+
+#### VS Code Debugger Files ####
+.vscode
+__debug_bin*
