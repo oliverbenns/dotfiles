@@ -163,4 +163,15 @@ vim.api.nvim_set_var('prettier#config#config_precedence', 'prefer-file')
 vim.api.nvim_set_var('go_fmt_command', 'goimports')
 vim.api.nvim_set_var('go_doc_popup_window', 1)
 
+-- Yaml
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "yaml",
+  callback = function()
+    vim.bo.tabstop = 2
+    vim.bo.softtabstop = 2
+    vim.bo.shiftwidth = 2
+    vim.bo.expandtab = true
+  end,
+})
+
 EOF

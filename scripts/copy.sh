@@ -13,7 +13,6 @@ copy .bashrc
 copy .config
 copy .editorconfig
 copy .gitignore_global
-copy .vimrc
 copy .hushlogin
 copy .prettierrc.json
 
