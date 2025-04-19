@@ -23,8 +23,6 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-Plug 'hashivim/vim-terraform'
-Plug 'prisma/vim-prisma'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lua/plenary.nvim'
@@ -134,11 +132,6 @@ require'lspconfig'.ts_ls.setup {
 }
 
 require'lspconfig'.gopls.setup {
-  capabilities = capabilities,
-  on_attach = on_attach
-}
-
-require'lspconfig'.terraformls.setup {
   capabilities = capabilities,
   on_attach = on_attach
 }

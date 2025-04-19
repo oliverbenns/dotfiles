@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 BASE_DIR=$(dirname "$0")
 
@@ -8,13 +8,11 @@ function copy {
   echo "Copied ${TARGET}"
 }
 
-copy .bash_profile
-copy .bashrc
+copy .zshrc
 copy .config
 copy .editorconfig
 copy .gitignore_global
-copy .hushlogin
 copy .prettierrc.json
 
-# See the bash changes
-source ~/.bashrc
+# Source the new zsh configuration
+source ~/.zshrc
