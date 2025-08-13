@@ -38,4 +38,7 @@ eval "$(direnv hook zsh)"
 
 function x() {
   git commit -m 'x'
-} 
+}
+
+# Cursor agent
+export PATH="$HOME/.local/bin:$PATH"
