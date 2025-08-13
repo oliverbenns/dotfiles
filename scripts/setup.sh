@@ -79,6 +79,9 @@ brew install --cask vlc
 brew install --cask whatsapp
 brew install --cask zoom
 
+# Cursor agent
+curl https://cursor.com/install -fsS | bash
+
 curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Some apps have specific config directories, so cp these. Symlinks don't work.
@@ -87,4 +90,3 @@ cp -r $BASE_DIR/../.config/iterm2/com.googlecode.iterm2.plist $HOME/Library/Pref
 
 # See the changes
 source ~/.zshrc
-
