@@ -56,7 +56,7 @@ brew install neovim
 brew install --cask brave-browser
 brew install --cask cursor
 brew install --cask discord
-brew install --cask docker
+brew install --cask docker-desktop
 brew install --cask google-chrome
 brew install --cask google-cloud-sdk
 brew install --cask google-drive
