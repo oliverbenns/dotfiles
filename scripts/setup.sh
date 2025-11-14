@@ -40,7 +40,11 @@ brew install killport
 # Apps
 brew install --cask brave-browser
 brew install --cask cursor
+brew install --cask chatgpt
+brew install --cask claude
+brew install --cask crossover
 brew install --cask discord
+brew install --cask datagrip
 brew install --cask docker-desktop
 brew install --cask google-chrome
 brew install --cask google-cloud-sdk
@@ -48,8 +52,8 @@ brew install --cask google-drive
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask kap
-brew install --cask postico
 brew install --cask postman
+brew install --cask private-internet-access
 brew install --cask qbittorrent
 brew install --cask raycast
 brew install --cask rectangle
