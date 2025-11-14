@@ -2,14 +2,8 @@
 export EDITOR='cursor'
 alias e="cursor"
 
-if [[ "$TERM" =~ 256color ]]; then
-  # https://github.com/tomasr/molokai/blob/master/colors/molokai.vim#L163
-  # https://robotmoon.com/256-colors/
-  PROMPT_COLOR='%F{118}'
-else
-  PROMPT_COLOR='%F{green}'
-fi
-
+# Prompt
+PROMPT_COLOR='%F{118}'
 PROMPT_COLOR_CLEAR='%f'
 PROMPT="${PROMPT_COLOR}%~${PROMPT_COLOR_CLEAR}
 λ "
