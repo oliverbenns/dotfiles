@@ -25,12 +25,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install stable
 nvm install-latest-npm
 
-npm install -g http-server
-npm install -g kill-port
-npm install -g prettier
-npm install -g typescript
-npm install -g vercel
-
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -38,6 +32,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install direnv
 brew install gh
 brew install go
+brew install http-server
+brew install killport
 
 # Apps
 brew install --cask brave-browser
