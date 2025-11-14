@@ -11,7 +11,6 @@ function copy {
 copy .zshrc
 copy .config
 copy .gitignore_global
-copy .prettierrc.json
 
 # Source the new zsh configuration
 source ~/.zshrc
