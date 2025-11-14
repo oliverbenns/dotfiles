@@ -6,10 +6,6 @@ $BASE_DIR/copy.sh
 
 defaults write com.apple.finder AppleShowAllFiles YES
 
-# Move cursor faster when vim editing
-defaults write -g InitialKeyRepeat -int 25
-defaults write -g KeyRepeat -int 2
-
 # https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 git config --global alias.co checkout
 git config --global alias.br branch
@@ -31,11 +27,9 @@ nvm install-latest-npm
 
 npm install -g http-server
 npm install -g kill-port
-npm install -g typescript-language-server
 npm install -g prettier
 npm install -g typescript
 npm install -g vercel
-npm install -g vscode-langservers-extracted
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -44,13 +38,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install direnv
 brew install gh
 brew install go
-
-# Nvim
-brew install fzf
-brew install the_silver_searcher
-brew install fd
-brew install ripgrep
-brew install neovim
 
 # Apps
 brew install --cask brave-browser
@@ -82,10 +69,8 @@ brew install --cask zoom
 # Cursor agent
 curl https://cursor.com/install -fsS | bash
 
-curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 # Some apps have specific config directories, so cp these. Symlinks don't work.
-# Not ideal but this will likely be removed if I transition to vim and standard terminal.
+# Not ideal but this will likely be removed if I transition to standard terminal.
 cp -r $BASE_DIR/../.config/iterm2/com.googlecode.iterm2.plist $HOME/Library/Preferences
 
 # See the changes
