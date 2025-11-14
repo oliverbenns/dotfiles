@@ -10,7 +10,6 @@ function copy {
 
 copy .zshrc
 copy .config
-copy .editorconfig
 copy .gitignore_global
 copy .prettierrc.json
 
