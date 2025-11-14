@@ -67,9 +67,6 @@ brew install --cask vlc
 brew install --cask whatsapp
 brew install --cask zoom
 
-# Cursor agent
-curl https://cursor.com/install -fsS | bash
-
 # Some apps have specific config directories, so cp these. Symlinks don't work.
 # Not ideal but this will likely be removed if I transition to standard terminal.
 cp -r $BASE_DIR/../.config/iterm2/com.googlecode.iterm2.plist $HOME/Library/Preferences
