@@ -46,7 +46,6 @@ brew install --cask google-drive
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask kap
-brew install --cask karabiner-elements
 brew install --cask postico
 brew install --cask postman
 brew install --cask qbittorrent
