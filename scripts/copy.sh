@@ -8,9 +8,12 @@ function copy {
   echo "Copied ${TARGET}"
 }
 
-copy .zshrc
 copy .config
+
+# Root
 copy .gitignore_global
+copy .hushlogin
+copy .zshrc
 
 # Source the new zsh configuration
 source ~/.zshrc
