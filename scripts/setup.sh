@@ -57,7 +57,6 @@ brew install --cask private-internet-access
 brew install --cask qbittorrent
 brew install --cask raycast
 brew install --cask rectangle
-brew install --cask send-to-kindle
 brew install --cask slack
 brew install --cask sourcetree
 brew install --cask spotify
