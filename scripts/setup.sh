@@ -51,7 +51,7 @@ brew install --cask google-cloud-sdk
 brew install --cask google-drive
 brew install --cask imageoptim
 brew install --cask iterm2
-brew install --cask kap
+brew install --cask obs
 brew install --cask postman
 brew install --cask private-internet-access
 brew install --cask qbittorrent
@@ -61,6 +61,7 @@ brew install --cask send-to-kindle
 brew install --cask slack
 brew install --cask sourcetree
 brew install --cask spotify
+brew install --cask steam
 brew install --cask telegram
 brew install --cask the-unarchiver
 brew install --cask vlc
