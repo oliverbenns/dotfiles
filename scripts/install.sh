@@ -1,23 +1,8 @@
 #!/bin/zsh
 
-BASE_DIR=$(dirname "$0")
-
-$BASE_DIR/copy.sh
-
 xcode-select --install
 
 defaults write com.apple.finder AppleShowAllFiles YES
-
-# https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
-# Always set same upstream name
-git config --global push.default current
-
-# Gitignore global
-git config --global core.excludesfile '~/.gitignore_global'
 
 # Install nvm, node and global deps
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash

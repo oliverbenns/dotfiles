@@ -11,6 +11,7 @@ function copy {
 copy .config
 
 # Root
+copy .gitconfig
 copy .gitignore_global
 copy .hushlogin
 copy .zshrc
