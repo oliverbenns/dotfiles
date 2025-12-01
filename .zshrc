@@ -36,3 +36,6 @@ function x() {
 
 # Cursor agent
 export PATH="$HOME/.local/bin:$PATH"
+
+# Libpq
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"'
