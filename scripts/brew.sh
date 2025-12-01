@@ -1,4 +1,5 @@
 brew install direnv
+brew install fnm
 brew install gh
 brew install go
 brew install http-server

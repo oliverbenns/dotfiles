@@ -8,9 +8,8 @@ PROMPT_COLOR_CLEAR='%f'
 PROMPT="${PROMPT_COLOR}%~${PROMPT_COLOR_CLEAR}
 λ "
 
-# Nvm
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# Fnm
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 # Go
 export GOPATH=$HOME/go
