@@ -15,11 +15,11 @@ brew install --cask crossover
 brew install --cask discord
 brew install --cask datagrip
 brew install --cask docker-desktop
+brew install --cask ghostty
 brew install --cask google-chrome
 brew install --cask google-cloud-sdk
 brew install --cask google-drive
 brew install --cask imageoptim
-brew install --cask iterm2
 brew install --cask obs
 brew install --cask postman
 brew install --cask private-internet-access
