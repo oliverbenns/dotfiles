@@ -21,6 +21,7 @@ brew install --cask google-cloud-sdk
 brew install --cask google-drive
 brew install --cask imageoptim
 brew install --cask obs
+brew install --cask pika
 brew install --cask postman
 brew install --cask private-internet-access
 brew install --cask qbittorrent
