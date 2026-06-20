@@ -6,6 +6,7 @@ brew install gh
 brew install go
 brew install http-server
 brew install killport
+brew install libpq
 brew install pnpm
 brew install vercel-cli
 
